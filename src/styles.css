@@ -49,3 +49,12 @@
 :root {
     font-family: system-ui, sans-serif;
 }
+
+body {
+    padding: 1rem;
+}
+
+#app-header {
+    display: flex;
+    gap: 0.25rem;
+}
