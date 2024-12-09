@@ -1,4 +1,5 @@
-import { sayHello } from "./test";
 import "./styles.css";
+import { ToDo } from "./todo";
 
-sayHello();
+const task = new ToDo("Hello", "Hello, world", "10.12.2024", "High", "Say something", "not checked");
+console.log(task);
