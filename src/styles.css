@@ -51,10 +51,28 @@
 }
 
 body {
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
 }
 
 #app-header {
     display: flex;
     gap: 0.25rem;
+}
+
+nav {
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+#controls {
+
+}
+
+#content {
+    padding: 1rem;
 }
